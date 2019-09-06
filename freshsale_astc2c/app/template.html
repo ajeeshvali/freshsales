@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://static.freshdev.io/fdk/2.0/assets/freshsales.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://static.freshdev.io/fdk/2.0/assets/fresh_client.js"></script>
+      <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+   </head>
+
+<body >
+<div class="container">
+	<div class="align-middle " style="margin-top: 50px">
+		<div class="row">
+<!---			<div class="column left" style="background-color:#fff;">
+				<img src="asttecs_logo.png" style="width:100px;height:70px;">
+			</div>
+---->
+
+			<div class="column" style="background-color:#fff;" >
+				<h1  style="background-color:#800080; font-size: 2em; color:white;" >*astTECS&nbsp;Click2Call</h1>
+
+							<span class="label info">Vicidial-WebDomain:</span>
+							<input type="text" name="c2c_domain" id ="c2c_domain" placeholder="c2c Web-Domain" /><br/>
+							<span class="label info">Number&nbsp;ToDial:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<input type="number" name="c2c_phno" id="c2c_phno" placeholder="c2c PhoneNumber" /><br/>
+							<span class="label info">Logged-In&nbsp;UserEmail:</span>
+							<input type="text" name="c2c_agent" id="c2c_agent" readonly /><br/>
+							
+							<a href="#" onclick="c2c_post();" > <img id="dial_img" src="DialNow.gif" border="0" alt="Send Call" > </a>
+							<a href="#" onclick="c2c_hangup();" > <img id="hangup_img" src="hangupCall.gif" border="0" alt="Hangup Call" > </a> 
+					
+						<span  id="DiaLControl">
+							<a href="#" onclick="c2c_pause();"><img id="pause_img" src="vdc_LB_pause_OFF.gif" border="0" alt="Pause" ></a>
+							<a href="#" onclick="c2c_resume();"><img id="resume_img" src="vdc_LB_resume.gif" border="0" alt="Resume" ></a>
+						</span>
+							
+							
+							
+							
+			</div>
+		</div>
+	</div>
+    
+    <!----------------------------------
+        <br/>
+         <div class="text-center">
+            <button onclick="openModal();" class="btn btn-primary" style="margin-top:20px">   Open Modal </button>
+         </div>
+
+       <br/>
+         <div class="text-center">
+            <button onclick="displayMessage('danger','sample notification');" class="btn btn-primary" style="margin-top:20px">   Open MESSAGE </button>
+         </div>
+	----------------------->
+      </div>
+   </body>
+</html>

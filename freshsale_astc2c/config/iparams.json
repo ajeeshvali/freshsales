@@ -1,0 +1,22 @@
+{
+    "contact": {
+      "display_name": "Phone / Email",
+      "description": "Please enter the contact details",
+      "type": "text",
+      "required": true
+    },
+
+
+
+
+    "contact-type": {
+      "display_name": "Contact Type",
+      "description": "Please select the contact type",
+      "type": "dropdown",
+      "options": [
+        "Phone",
+        "Email"
+      ],
+      "default_value": "Email"
+    }
+  }
